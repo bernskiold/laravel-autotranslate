@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-autotranslate` will be documented in this file.
 
+## 2.0.0 - 2026-01-01
+
+### What's Changed
+
+* Implement Laravel 12 support by @ErikBernskiold in https://github.com/bernskiold/laravel-autotranslate/pull/19
+* Drop support for Laravel 10
+
+**Full Changelog**: https://github.com/bernskiold/laravel-autotranslate/compare/1.1.0...2.0.0
+
 ## 1.1.0 - 2023-07-08
 
 ### What's Changed
