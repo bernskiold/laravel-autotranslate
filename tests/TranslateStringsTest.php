@@ -11,7 +11,7 @@ it('can translate strings', function () {
             ->withAnyArgs()
             ->once()
             ->andReturn([
-                new TextResult('Min ej översatta teststräng', 'en'),
+                new TextResult('Min ej översatta teststräng', 'en', 0),
             ]);
     });
 
@@ -33,7 +33,7 @@ it('skips translating previously translated strings', function () {
             ->withAnyArgs()
             ->once()
             ->andReturn([
-                new TextResult('Min ej översatta teststräng', 'en'),
+                new TextResult('Min ej översatta teststräng', 'en', 0),
             ]);
     });
 
@@ -57,7 +57,7 @@ it('can translate with variables', function () {
             ->withAnyArgs()
             ->once()
             ->andReturn([
-                new TextResult('Min sträng med <NOTRANSLATE>:variable<\/NOTRANSLATE>', 'en'),
+                new TextResult('Min sträng med <notranslate translate="no">:variable</notranslate>', 'en', 0),
             ]);
     });
 

@@ -23,7 +23,7 @@ class TranslateFile extends Command
     public function handle(TranslateStrings $translator): int
     {
         $language = $this->argument('lang');
-        $deeplLanguageCode = $this->argument('deeplCode', $language);
+        $deeplLanguageCode = $this->argument('deeplCode') ?? $language;
 
         $path = lang_path($language.'.json');
         $errors = [];
