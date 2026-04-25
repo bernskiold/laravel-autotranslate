@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-autotranslate` will be documented in this file.
 
+## 2.1.0 - 2026-04-25
+
+### What's Changed
+
+* Bump ramsey/composer-install from 3 to 4 by @dependabot[bot] in https://github.com/bernskiold/laravel-autotranslate/pull/25
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.5.0 by @dependabot[bot] in https://github.com/bernskiold/laravel-autotranslate/pull/24
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/bernskiold/laravel-autotranslate/pull/23
+* Bump actions/checkout from 4 to 6 by @dependabot[bot] in https://github.com/bernskiold/laravel-autotranslate/pull/22
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.6 by @dependabot[bot] in https://github.com/bernskiold/laravel-autotranslate/pull/21
+* Support Laravel 11–13 (drop 9/10) by @ErikBernskiold in https://github.com/bernskiold/laravel-autotranslate/pull/26
+
+**Full Changelog**: https://github.com/bernskiold/laravel-autotranslate/compare/2.0.0...2.1.0
+
 ## 2.0.0 - 2026-01-01
 
 ### What's Changed
