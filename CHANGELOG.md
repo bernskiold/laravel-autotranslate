@@ -2,6 +2,15 @@
 
 All notable changes to `laravel-autotranslate` will be documented in this file.
 
+## 2.1.1 - 2026-11-20
+
+### What's Changed
+
+* Add PHP 8.5 and 8.6 support and drop Laravel 11 by @ErikBernskiold in https://github.com/bernskiold/laravel-autotranslate/pull/28
+* Make PHP 8.6 a required part of the test matrix by @ErikBernskiold in https://github.com/bernskiold/laravel-autotranslate/pull/29
+
+**Full Changelog**: https://github.com/bernskiold/laravel-autotranslate/compare/2.1.0...2.1.1
+
 ## 2.1.0 - 2026-04-25
 
 ### What's Changed
